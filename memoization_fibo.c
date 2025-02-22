@@ -38,7 +38,7 @@ void test_fibonacci() {
         int n = test_values[i];
         int result = memoized_fibonacci(n);
         printf("fib(%d) = %d (expected: %d) %s\n", n, result, expected_results[i],
-               result == expected_results[i] ? "✅ Passed" : "❌ Failed");
+               result == expected_results[i] ? "Passed" : "Failed");
     }
 }
 
