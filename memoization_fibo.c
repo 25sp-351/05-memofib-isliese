@@ -43,7 +43,7 @@ void test_fibonacci() {
 }
 
 int main() {
-    init_cache();  // Initialize cache
-    test_fibonacci();  // Run test cases
+    init_cache();  
+    test_fibonacci();  
     return 0;
 }
